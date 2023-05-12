@@ -25,6 +25,22 @@ namespace GenericSolution
 
         }
 
-       
+        public void FindMaxFloat(float a, float b, float c)
+        {
+            if (a > b && a > c)
+            {
+                Console.WriteLine("a is maximum float");
+            }
+            if (b > a && b > c)
+            {
+                Console.WriteLine("b is maximum float");
+            }
+            else
+            {
+                Console.WriteLine("c is maximum float");
+            }
+
+
+        }
     }
 }
