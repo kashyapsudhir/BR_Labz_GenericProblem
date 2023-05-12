@@ -25,21 +25,6 @@ namespace GenericSolution
 
         }
 
-        public void FindMaxFloat(float A, float B, float C)
-        {
-            if (A > B && A > C)
-            {
-                Console.WriteLine("A is maximum float num of them");
-            }
-            if (B > A && B > C)
-            {
-                Console.WriteLine("B is maximum float num of them");
-            }
-            else
-            {
-                Console.WriteLine("C is maximum float num of them");
-            }
-
-        }
+       
     }
 }

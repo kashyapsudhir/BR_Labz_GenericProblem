@@ -10,19 +10,20 @@ namespace GenericSolution
             Console.WriteLine("Hello Generic Problem and Maximum Number Program");
 
             MaxValue maxValue = new MaxValue();
-            Console.WriteLine("enter int type num");
-            int a = Convert.ToInt32(Console.ReadLine());
-            int b = Convert.ToInt32(Console.ReadLine());
-            int c = Convert.ToInt32(Console.ReadLine());
 
-            maxValue.FindMaxInt(a,b,c);
 
-            Console.WriteLine("enter float type num");
-            float A = Convert.ToSingle(Console.ReadLine());
-            float B = Convert.ToSingle(Console.ReadLine());
-            float C = Convert.ToSingle(Console.ReadLine());
+            Console.WriteLine(" Case 1:");
+            maxValue.FindMaxInt(50, 15, 9);
 
-            maxValue.FindMaxFloat(A, B, C);
+
+            Console.WriteLine(" Case 2:");
+            maxValue.FindMaxInt(15, 50, 9);
+
+
+            Console.WriteLine(" Case 3:");
+            maxValue.FindMaxInt(15, 9, 50);
+
+           
         }
     }
 }
