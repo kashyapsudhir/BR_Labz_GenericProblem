@@ -20,6 +20,10 @@ namespace GenericSolution
             maxValue.FindMaxFloat(3.4f, 1.4f, 2.5f);
 
 
+            Console.WriteLine("Case 3(string):");
+            maxValue.FindMaxString("10", "20", "30");
+
+
         }
     }
 }
